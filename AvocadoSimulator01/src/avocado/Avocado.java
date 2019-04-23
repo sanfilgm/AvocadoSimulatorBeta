@@ -11,7 +11,7 @@ package avocado;
  */
 public class Avocado {
 	private String color;
-	enum enumCondition {fresh, ok, squishy, useless};
+	public enum enumCondition {fresh, ok, squishy, useless};//anumerated datatype , meaning it can not be anything else, you can limit the stakes by limiting the value you can take on
 	private enumCondition condition;
 	private int weightInGrams;
 	public String getColor() {
